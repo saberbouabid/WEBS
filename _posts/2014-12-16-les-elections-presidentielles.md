@@ -9,8 +9,12 @@ image:
   credit: Nawaat
   creditlink: http://nawaat.org/portail/wp-content/uploads/2014/12/fecebook-elections-tunisie-2014-essebsi-marzouki-big.jpg
 comment: true
-link: http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/
+
 ---
+
+>Cet Article a été publié aussi sur le site nawaat.org <a href="http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/" class="btn btn-success"> Visitez Nawaat </a>
+
+
 
 ![Nawaat](https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg)
 
