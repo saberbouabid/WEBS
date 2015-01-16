@@ -2,17 +2,17 @@
 published: true
 title: les éléctions présidentielles tunisiennes sur Facebook
 layout: post
-tags: [Politics]
+tags: [Politics, R,Facebook]
 modified: 2014-12-16 
 image: 
-  feature : https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg
+  feature :
   credit: Nawaat
   creditlink: http://nawaat.org/portail/wp-content/uploads/2014/12/fecebook-elections-tunisie-2014-essebsi-marzouki-big.jpg
 comment: true
 link: http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/
 ---
 
-
+![Nawaat](https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg)
 
 Dans cet article, je vais faire un Benchmark des données statistiques prises du réseau social Facebook . Rappelons qu' en Janvier 2011, la Tunisie a fait le buzz à l'échelle planétaire , à travers une révolution pacifique et légitime,  comme un résultat , le régime de dictateur Ben Ali  qui a paralysé tous les courants politiques,  a fait chute libre et Zaba a fini par s'enfuir en Arabie saoudite !
 
