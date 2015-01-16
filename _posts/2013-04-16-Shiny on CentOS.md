@@ -6,20 +6,21 @@ tags: [Unix, R]
 modified: 2013-04-16 
 image: 
 comment: true
+read-time: false
 ---
 
 In the last four months I had worked to develop a web application with shiny server to analyze with Kernel density estimation  the density of TV viewers in Tunisia. I will write an installation guide that will help you if you need to use CentOS 32 bits or 64 bits.
 
 
-I’m a root user :) !
+### I’m a root user  !
 
 Through my experience , I can advise you to install these development libraries first
-
 
          yum install libssl-dev
          yum install openssl-devel
 
 Install Node.js from the official web site See related article here
+
       cd /opt
       wget http://nodejs.org/dist/latest/node-v0.10.5.tar.gz
       tar -xvf node-v0.10.5.tar.gz
