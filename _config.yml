@@ -17,17 +17,17 @@ owner:
   twitter:        saberbouabid
   facebook:       
   github:         sabertn
-  stackexchange:  sabertn
+  stackexchange:  
   linkedin:       saberbouabid
-  instagram:      
+  instagram:      saber_bouabid
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    #+yourid
 
 # Background image to be tiled on all pages
-background: raw.jpg
+background: 
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
