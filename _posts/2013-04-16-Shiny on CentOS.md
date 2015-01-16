@@ -1,4 +1,3 @@
-
 ---
 published: true
 title: Installing R shiny On CentOS server
@@ -8,7 +7,6 @@ modified: 2013-04-16
 image: 
 comment: true
 ---
-
 
 In the last four months I had worked to develop a web application with shiny server to analyze with Kernel density estimation  the density of TV viewers in Tunisia. I will write an installation guide that will help you if you need to use CentOS 32 bits or 64 bits.
 
