@@ -1,6 +1,15 @@
-# les éléctions présidentielles tunisiennes sur Facebook
+---
+published: true
+title: les éléctions présidentielles tunisiennes sur Facebook 
+layout: post
+tags: [Politics] 
+modified: 2014-12-16 
+comment: true
+share: ture
+---
 
->Cet Article a été publié aussi sur le site nawaat.org <a href="http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/" class="btn btn-success"> Visitez Nawaat </a>
+
+>Cet Article a été publié aussi sur le site nawaat.org    <a href="http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/" class="btn btn-success"> Visitez Nawaat </a>
 
 
 ![Nawaat](https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg)
