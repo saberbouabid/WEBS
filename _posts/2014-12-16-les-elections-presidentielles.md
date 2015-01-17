@@ -1,22 +1,10 @@
----
-published: true
-title: les éléctions présidentielles tunisiennes sur Facebook
-layout: post
-tags: [Politics, R,Facebook]
-modified: 2014-12-16 
-image: 
-  feature :
-  credit: Nawaat
-  creditlink: http://nawaat.org/portail/wp-content/uploads/2014/12/fecebook-elections-tunisie-2014-essebsi-marzouki-big.jpg
-comment: true
-
----
+# les éléctions présidentielles tunisiennes sur Facebook
 
 >Cet Article a été publié aussi sur le site nawaat.org <a href="http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/" class="btn btn-success"> Visitez Nawaat </a>
 
 
-
 ![Nawaat](https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg)
+
 
 Dans cet article, je vais faire un Benchmark des données statistiques prises du réseau social Facebook . Rappelons qu' en Janvier 2011, la Tunisie a fait le buzz à l'échelle planétaire , à travers une révolution pacifique et légitime,  comme un résultat , le régime de dictateur Ben Ali  qui a paralysé tous les courants politiques,  a fait chute libre et Zaba a fini par s'enfuir en Arabie saoudite !
 
@@ -24,6 +12,68 @@ Dans cet article, je vais faire un Benchmark des données statistiques prises du
 Des observateurs, des analystes et même les tunisiens avouent qu'ils ont fait une révolution à travers Facebook et Twitter avant de passer à l'action et descendre dans la rue. Bref, même l'état tunisien a su l'importance de ce réseau social et nous avons vu le ministère de l’intérieur publiait les nouvelles sur une page Facebook "officielle" comme d'autres institutions à savoir la présidence de la république.
 
 Facebook est sans doute un espace ou la transparence règne et l'information circule d'une manière accélérée que même les médias tunisiens n'arrivent plus à le maîtriser. Alors ils ont pensé à l'utiliser comme détecteur d'incident ou événement et c'est un changement radical. Ce n'est pas nouveau pour d'autre média comme France 24 qui utilise Twitter pour ce but. Aujourd'hui , La Tunisie et après quatre ans de la révolution organise les premières élections transparentes et réelles. Les résultats de premier tour qui sont ci-dessous. montre qu'il n’y a plus le candidat de 99% :)  et c'est un bon indicateur !
+
+
+
+
+---------------------------------------------
+           &nbsp;             Total de votes 
+---------------------------- ----------------
+   **Beji Caid Essebsi**         1289431     
+
+    **Moncef Marzouki**          1092494     
+
+     **Hamma Hammami**            255546     
+
+ **Mohamed Hachemi Hamdi**        187939     
+
+       **Slim Riahi**             181406     
+
+     **Kamel Morjane**            41612      
+
+   **Ahmed Nejib Chebbi**         34020      
+
+    **Ahmed Safi Said**           26073      
+
+    **Mondher Zenaidi**           24158      
+
+  **Mustapha Ben Jaafar**         21992      
+
+    **Kalthoum Kennou**           18283      
+
+     **Mohamed Frikha**           17506      
+
+   **Abderrazek Kilani**          10102      
+
+ **Mustapha Kamel Ennabli**        6725      
+
+     **Abdel Labbaoui**            6485      
+
+       **Arbi Nasra**              6427      
+
+   **Hammouda Ben Slama**          5735      
+
+    **Mohamed El-Hamdi**           5592      
+
+    **Mahrez Bousayane**           5378      
+
+      **Salem Chaibi**             5248      
+
+     **Samir Abdelli**             5025      
+
+      **Ali Chourabi**             4702      
+
+     **Mokhtar Mejri**             4286      
+
+    **Abderraouf Ayadi**           3549      
+
+   **Yassine Chennoufi**           3122      
+
+   **Abderrahim Zouari**           2700      
+
+   **Noureddine Hached**           2188      
+---------------------------------------------
+
 
 <iframe src="https://dl.dropboxusercontent.com/u/63050880/graphe%20article/resultat.html" width="100%" height="450"  frameBorder="0" ></iframe>
 
