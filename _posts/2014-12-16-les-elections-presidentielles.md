@@ -14,9 +14,6 @@ share: ture
 >Cet Article a été publié aussi sur le site nawaat.org    <a href="http://nawaat.org/portail/2014/12/16/les-elections-presidentielles-tunisiennes-sur-facebook/" class="btn btn-success"> Visitez Nawaat </a>
 
 
-![Nawaat](https://cloud.githubusercontent.com/assets/3026877/5785316/7e6d3c38-9dd5-11e4-87ac-18904d57f697.jpg)
-
-
 Dans cet article, je vais faire un Benchmark des données statistiques prises du réseau social Facebook . Rappelons qu' en Janvier 2011, la Tunisie a fait le buzz à l'échelle planétaire , à travers une révolution pacifique et légitime,  comme un résultat , le régime de dictateur Ben Ali  qui a paralysé tous les courants politiques,  a fait chute libre et Zaba a fini par s'enfuir en Arabie saoudite !
 
 
@@ -63,7 +60,7 @@ La réponse est dans ce graphique qui montre une distribution équilibrée pour 
 <iframe src="https://dl.dropboxusercontent.com/u/63050880/graphe%20article/pub.html" width="100%" height="450" frameBorder="0"></iframe>
 
 
-La troisième question : Quelles sont les publications les plus réussies sur  les trois axes like, comment , share ?
+_La troisième question : Quelles sont les publications les plus réussies sur  les trois axes like, comment , share ?_
 
 
 <iframe src="https://dl.dropboxusercontent.com/u/63050880/graphe%20article/top.html" width="100%" height="450" frameBorder="0"></iframe>
