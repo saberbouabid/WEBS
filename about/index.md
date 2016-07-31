@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: who i am ?
 image:
   feature: about.jpg
   credit: 
@@ -13,8 +13,8 @@ comments: false
 
 > Passionné par l’informatique décisionnelle, le data mining je partage mes articles et projets. Interessé par la science politique , le datavisualisation et les reseaux sociaux .
 
-## English
+
   
 
 
-<a href="{{ site.url }}/#/" class="btn btn-success"> Download  PDF </a>
+<--!a href="{{ site.url }}/#/" class="btn btn-success"> Download  PDF </a-->
