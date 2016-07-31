@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 image:
-  feature: abaout.jpg
+  feature: about.jpg
   credit: 
   creditlink: 
 comments: false
