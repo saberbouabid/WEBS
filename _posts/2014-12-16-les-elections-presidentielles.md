@@ -1,10 +1,10 @@
 ---
 published: true
-title: les éléctions présidentielles tunisiennes sur Facebook 
+title: Les éléctions présidentielles tunisiennes sur Facebook 
 layout: post
 tags: [Politics] 
 image: 
-  feature: 	abstract-1.jpg
+  feature: 	BCE.jpg
 modified: 2014-12-16 
 comment: true
 share: ture
