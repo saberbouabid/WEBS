@@ -2,7 +2,7 @@
 published: true
 title: Java installation on CentOS 6
 layout: post
-tags: [Unix, R]
+tags: [Unix, Java , CentOS]
 modified: 2013-03-16 
 image: java.jpg
 comment: true
@@ -43,7 +43,7 @@ http://ftp.scientificlinux.org/linux/scientific/5rolling/testing/x86_64/
 
 The last step is to install it .
 
-    yum localinstall ftp://ftp.scientificlinux.org/linux/scientific/5rolling/testing/x86_64/java/java-1.6.0-sun-compat-1.6.0.37-3.sl5.jpp.x86_64.rpm
+ yum localinstall ftp://ftp.scientificlinux.org/linux/scientific/5rolling/testing/x86_64/java/java-1.6.0-sun-compat-1.6.0.37-3.sl5.jpp.x86_64.rpm
 
 Finally you must use the alternatives command to make Oracle JDK as your default one java package! Then when you installed tomcat for example it will accept this configuration directly...
 And choose the number of java version which you want to use!
