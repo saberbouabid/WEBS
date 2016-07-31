@@ -4,8 +4,8 @@ title: Installing R shiny On CentOS server
 layout: post
 tags: [Unix, R]
 modified: 2013-04-16 
-image: 
-         feature:abstract-5.jpg
+image:
+         feature: abstract-5.jpg
 comment: true
 read-time: false
 ---
