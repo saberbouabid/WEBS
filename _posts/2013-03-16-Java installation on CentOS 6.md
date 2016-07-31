@@ -4,7 +4,7 @@ title: Java installation on CentOS 6
 layout: post
 tags: [Unix, R]
 modified: 2013-03-16 
-image: http://www.javaassignmenthelp.net/wp-content/uploads/2013/06/Java-Assignment-Help.jpg
+image: java.jpg
 comment: true
 read-time: false
 ---
