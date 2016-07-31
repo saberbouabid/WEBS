@@ -26,30 +26,31 @@ yum install jpackage-utils
 Next step to download the Oracle JDK Linux RPM rpm.bin http://www.oracle.com/technetwork/java/javase/downloads
 Or write this command:
 
-  cd /tmp/
-  wget http://download.oracle.com/otn/java/jdk/6u41-b02/jdk-6u41-linux-x64-rpm.bin
+    cd /tmp/
+    wget http://download.oracle.com/otn/java/jdk/6u41-b02/jdk-6u41-linux-x64-rpm.bin
   
 Now, to install it you will need to change his rights with chmod command.
 
-  chmod 755 jdk-6u41-linux-x64-rpm.bin
+    chmod 755 jdk-6u41-linux-x64-rpm.bin
     
 To install it:
 
-  ./jdk-6u41-linux-x64-rpm.bin
+    ./jdk-6u41-linux-x64-rpm.bin
   
 Right now you must have JDK and JRE 6 installed on your machine. But still a little thing  most important, you must know that every time you have to install a software depend to java yum will try to install Openjdk and that is a problem in my situation .the solution is the compact package  suitable to the java version which you have installed.
 You can find the right one in the web site scientificlinux.org … I found it here 
 http://ftp.scientificlinux.org/linux/scientific/5rolling/testing/x86_64/
 
-The last step is to install it
+The last step is to install it .
+
     yum localinstall ftp://ftp.scientificlinux.org/linux/scientific/5rolling/testing/x86_64/java/java-1.6.0-sun-compat-1.6.0.37-3.sl5.jpp.x86_64.rpm
 
 Finally you must use the alternatives command to make Oracle JDK as your default one java package! Then when you installed tomcat for example it will accept this configuration directly...
 And choose the number of java version which you want to use!
 
-alternatives  --config java
-java  -version
-javac  -version
+    alternatives  --config java
+    java  -version
+    javac  -version
 
 And that’s the story of Java compatibility and Linux distributions
 
