@@ -4,7 +4,8 @@ title: Java installation on CentOS 6
 layout: post
 tags: [Unix, Java , CentOS]
 modified: 2013-03-16 
-image: java.jpg
+image: 
+    feature: java.jpg
 comment: true
 read-time: false
 ---
