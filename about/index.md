@@ -8,10 +8,10 @@ image:
 comments: false
 ---
 
-## Français :
+# Mon Parcours Professionnel
 > Je suis  **data-scientist** , diplômé de l'école supérieure de la statistique et de l’analyse de l’information de Tunis [ESSAI](http://www.essai.rnu.tn).
 
-> J'ai commencé ma carrière dans l'industrie de la communication et la publicité en 2O13 avec WETHINK 
+> J'ai commencé ma carrière dans l'industrie de la communication et la publicité en 2O13 avec [WETHINK](http://wethink.tn)
 
 > En 2015, une nouvelle expérience avec [la parisienne Assurances](http://la-parisienne.fr) m'a permis de décourvir l'univers de risque et de l'aléatoire . 
 
