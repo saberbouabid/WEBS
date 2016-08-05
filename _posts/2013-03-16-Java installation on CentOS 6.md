@@ -10,8 +10,11 @@ comment: true
 read-time: false
 ---
 
-Java today makes programs works perfectly like magic, but this isn’t in my actual case. My adventure with the famous framework dedicated to BUSINESS INTELLIGENCE Spagobi 3.6 server, Started with a problem of java compatibility. It takes from me a lot of time to know what is the issue and resolve it.
 
+
+Java today makes programs works perfectly like magic, but this isn’t in my actual case.
+
+My adventure with the famous framework dedicated to BUSINESS INTELLIGENCE Spagobi 3.6 server, Started with a problem of java compatibility. It takes from me a lot of time to know what is the issue and resolve it.
 The best practice is to choose the right package and the right version of SUN java ... I discovered that _OpenJDK_ the java version delivered by most the distributions of Linux and by default CentOS use it instead of Sun Java required by Spago BI.
 
 
