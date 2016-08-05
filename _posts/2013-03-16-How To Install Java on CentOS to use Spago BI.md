@@ -1,6 +1,6 @@
 ---
 published: true
-title: How To Install Java on CentOS to use Spabo BI 
+title: How To Install Java on CentOS to use Spago BI 
 layout: post
 tags: [Unix, Java , CentOS]
 modified: 2013-03-16 
