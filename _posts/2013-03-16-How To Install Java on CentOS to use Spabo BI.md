@@ -1,6 +1,6 @@
 ---
 published: true
-title: Java installation on CentOS 6
+title: How To Install Java on CentOS to use Spabo BI 
 layout: post
 tags: [Unix, Java , CentOS]
 modified: 2013-03-16 
