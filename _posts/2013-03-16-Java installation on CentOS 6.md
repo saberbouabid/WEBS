@@ -20,7 +20,7 @@ The best practice is to choose the right package and the right version of SUN ja
 
 You will we need:
 
- - The right Oracle JDK RPM version (from www.Oracle.com)
+ - The right Oracle JDK RPM version (from [Oracle](www.oracle.com)
  - JPackage Utils
  - The Sun Compatibility package
 
