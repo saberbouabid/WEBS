@@ -21,7 +21,6 @@ Des observateurs, des analystes et même les tunisiens avouent qu'ils ont fait u
 
 Facebook est sans doute un espace ou la transparence règne et l'information circule d'une manière accélérée que même les médias tunisiens n'arrivent plus à le maîtriser. Alors ils ont pensé à l'utiliser comme détecteur d'incident ou événement et c'est un changement radical. Ce n'est pas nouveau pour d'autre média comme France 24 qui utilise Twitter pour ce but. Aujourd'hui , La Tunisie et après quatre ans de la révolution organise les premières élections transparentes et réelles. Les résultats de premier tour qui sont ci-dessous. montre qu'il n’y a plus le candidat de 99% :)  et c'est un bon indicateur !
 
-
 <meta charset = 'utf-8'>
 <html>
 <head>
@@ -43,96 +42,113 @@ Facebook est sans doute un espace ou la transparence règne et l'information cir
   </head>
   <body >
     
-    <div id = 'pub.html' class = 'rChart highcharts'></div>    
+    <div id = 'resulat.html' class = 'rChart highcharts'></div>    
     <script type='text/javascript'>
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({
- "dom": "pub.html",
+ "dom": "resulat.html",
 "width":            800,
 "height":            400,
 "credits": {
- "enabled": "true",
-"href": "http://blog.bi-statistics.com",
-"text": "Bi-statistics.com" 
+ "href": null,
+"text": null 
 },
 "exporting": {
  "enabled": true 
 },
 "title": {
- "text": "Type de publications " 
+ "text": "Resultat de Premier Tour #tnPrez" 
 },
-"yAxis": [
- {
+"yAxis": {
  "title": {
- "text": "Nombre Total",
-"labels": {
- "enabled": "false",
-"style": {
- "fontSize": "13px",
-"fontFamily": "Verdana, sans-serif" 
+ "text": null 
 } 
-} 
-} 
-} 
-],
+},
+"chart": {
+ "zoomType": "xy",
+"renderTo": "resulat.html" 
+},
 "series": [
  {
  "data": [
- [
- "link",
-41 
+          39.46,
+         33.43,
+          7.82,
+          5.75,
+          5.55,
+          5.55,
+          1.04,
+           0.8,
+          0.74,
+          0.67,
+          0.56,
+          0.45,
+          0.31,
+          0.21,
+           0.2,
+           0.2,
+           0.1,
+          0.17,
+          0.16,
+          0.16,
+          0.15,
+          0.14,
+          0.13,
+          0.11,
+           0.1,
+          0.08,
+          0.07 
 ],
-[
- "photo",
-315 
-],
-[
- "status",
-15 
-],
-[
- "video",
-107 
-] 
-],
-"name": "Beji Caid Essebsi",
-"type": "areaspline",
-"marker": {
- "radius":              3 
-} 
+"name": "pourcentage",
+"type": "column" 
 },
 {
  "data": [
- [
- "link",
-50 
+ 1289384,
+1092418,
+255529,
+187923,
+181407,
+41614,
+34025,
+26073,
+24160,
+21989,
+18287,
+17506,
+10077,
+6723,
+6426,
+6486,
+5737,
+5593,
+5377,
+5245,
+5054,
+4699,
+4286,
+3551,
+3118,
+2701,
+2181 
 ],
-[
- "photo",
-185 
-],
-[
- "status",
-180 
-],
-[
- "video",
-181 
-] 
-],
-"name": "Moncef Marzouki",
-"type": "areaspline",
-"marker": {
- "radius":              3 
+"type": "line",
+"name": "Nombre total de votes" 
 } 
-} 
 ],
+"tooltip": {
+ "formatter":  function() { return this.x + ', ' + this.y ; }  
+},
+"legend": {
+ "enabled": true 
+},
 "xAxis": [
  {
- "categories": [ "link", "photo", "status", "video", "link", "photo", "status", "video" ],
+ "categories": [ "Beji Caid Essebsi", "Moncef Marzouki", "Hamma Hammami", "Hechmi Hamdi", "Slim Riahi", "Kamel Morjane", "Ahmed Nejib Chebbi", "Safi Said", "Mondher Zenaidi", "Mustapha Ben Jaafar", "Kalthoum Kannou", "Mohamed Frikha", "Abderrazak Kilani", "Mustapha Kamel Nabli", "Larbi Nasra", "Abdelkader Labaoui", "Hamouda Ben Slama", "Mohamed Ben Mabrouk Hamdi", "Mehrez Boussayene", "Salem Chaibi", "Samir Abdelli", "Ali Chourabi", "Mokhtar Mejri", "Abderraouf Ayadi", "Yassine Chennoufi", "Abderrahim Zouari", "Noureddine Hached" ],
 "labels": {
- "enabled": "false",
+ "enabled": false,
+"rotation":            -90,
 "align": "right",
 "style": {
  "fontSize": "13px",
@@ -141,18 +157,23 @@ Facebook est sans doute un espace ou la transparence règne et l'information cir
 } 
 } 
 ],
-"subtitle": {
- "text": null 
+"plotOptions": {
+ "column": {
+ "dataLabels": {
+ "enabled": true,
+"rotation":            -90,
+"align": "right",
+"color": "#BF166B",
+"x":              5,
+"y":            -30,
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
 },
-"chart": {
- "zoomType": "xy",
-"renderTo": "pub.html" 
-},
-"tooltip": {
- "shared": false,
-"formatter":  function() { return  this.y +' '+ this.x ; }  
-},
-"id": "pub.html" 
+"id": "resulat.html" 
 });
         });
     })(jQuery);
@@ -161,6 +182,7 @@ Facebook est sans doute un espace ou la transparence règne et l'information cir
     <script></script>    
   </body>
 </html>
+
 
 
 
