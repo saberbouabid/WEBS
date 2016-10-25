@@ -1752,7 +1752,158 @@ La réponse est dans ce graphique qui montre une distribution équilibrée pour 
 _La troisième question : Quelles sont les publications les plus réussies sur  les trois axes like, comment , share ?_
 
 
-<iframe src="https://dl.dropboxusercontent.com/u/63050880/graphe%20article/top.html" width="100%" height="450" frameBorder="0"></iframe>
+
+<meta charset = 'utf-8'>
+<html>
+<head>
+<script src='https://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/highcharts.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/highcharts-more.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/modules/exporting.js' type='text/javascript'></script>
+<style>
+
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 100%;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'top.html' class = 'rChart highcharts'></div>    
+    <script type='text/javascript'>
+    (function($){
+        $(function () {
+            var chart = new Highcharts.Chart({
+ "dom": "top.html",
+"width":            800,
+"height":            400,
+"credits": {
+ "enabled": "true",
+"href": "http://blog.bi-statistics.com",
+"text": "Bi-statistics.com" 
+},
+"exporting": {
+ "enabled": true 
+},
+"title": {
+ "text": "Top des publications par type d'interaction" 
+},
+"yAxis": [
+ {
+ "title": {
+ "text": "Nombre Total",
+"labels": {
+ "enabled": "false",
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
+} 
+],
+"series": [
+ {
+ "data": [
+ [
+ "Top Comment",
+           843 
+],
+[
+ "Top like",
+          6487 
+],
+[
+ "Top share",
+          7476 
+] 
+],
+"name": "Beji Caid Essebsi",
+"type": "column",
+"marker": {
+ "radius":              3 
+} 
+},
+{
+ "data": [
+ [
+ "Top Comment",
+          2454 
+],
+[
+ "Top like",
+         18769 
+],
+[
+ "Top share",
+         12287 
+] 
+],
+"name": "Moncef Marzouki",
+"type": "column",
+"marker": {
+ "radius":              3 
+} 
+} 
+],
+"xAxis": [
+ {
+ "categories": [ "Top like", "Top Comment", "Top share" ],
+"labels": {
+ "enabled": "false",
+"align": "right",
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
+],
+"subtitle": {
+ "text": null 
+},
+"chart": {
+ "zoomType": "xy",
+"renderTo": "top.html" 
+},
+"tooltip": {
+ "shared": false,
+"formatter":  function() { return  this.x +' '+this.y ; }  
+},
+"plotOptions": {
+ "column": {
+ "dataLabels": {
+ "enabled": false,
+"rotation":            -90,
+"align": "right",
+"color": "#BF166B",
+"x":              5,
+"y":            -30,
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
+},
+"legend": {
+ "enabled": true 
+},
+"colors": [ "#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#8085e9", "#90ed7d", "#f15c80", "#e4d354", "#8085e8", "#8d4653", "#91e8e1", "#90ed7d", "#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#8085e9", "#90ed7d" ],
+"id": "top.html" 
+});
+        });
+    })(jQuery);
+</script>
+    
+    <script></script>    
+  </body>
+</html>
 
 
 
