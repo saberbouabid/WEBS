@@ -209,6 +209,9 @@ _La deuxième question :   Quels sont les types des publications utilisés par l
 La réponse est dans ce graphique qui montre une distribution équilibrée pour la page de MMM et une distribution modale autour des photos  sur la page BCE .
 
 
+<meta charset = 'utf-8'>
+<html>
+<head>
 <script src='https://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
 <script src='https://code.highcharts.com/highcharts.js' type='text/javascript'></script>
 <script src='https://code.highcharts.com/highcharts-more.js' type='text/javascript'></script>
@@ -222,7 +225,11 @@ La réponse est dans ce graphique qui montre une distribution équilibrée pour 
       width: 100%;
       height: 400px;
     }  
-    </style>    
+    </style>
+    
+  </head>
+  <body >
+    
     <div id = 'pub.html' class = 'rChart highcharts'></div>    
     <script type='text/javascript'>
     (function($){
@@ -233,7 +240,7 @@ La réponse est dans ce graphique qui montre une distribution équilibrée pour 
 "height":            400,
 "credits": {
  "enabled": "true",
-"href": "http://bi-statistics.com",
+"href": "http://blog.bi-statistics.com",
 "text": "Bi-statistics.com" 
 },
 "exporting": {
@@ -337,8 +344,11 @@ La réponse est dans ce graphique qui montre une distribution équilibrée pour 
         });
     })(jQuery);
 </script>
-<script>
-</script>    
+    
+    <script></script>    
+  </body>
+</html>
+
 
 
 _La troisième question : Quelles sont les publications les plus réussies sur  les trois axes like, comment , share ?_
