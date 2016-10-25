@@ -37,6 +37,146 @@ J'ai utilisé  R et l'api Facebook pour analyser les pages de deux candidats. En
 Tous les graphiques sont zoomables sur l'axe vertical et horizontal et vous pouvez les exporter .
 
 <iframe src="https://dl.dropboxusercontent.com/u/63050880/graphe%20article/shares.html" width="100%" height="450" frameBorder="0" ></iframe>
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+<head>
+<script src='https://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/highcharts.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/highcharts-more.js' type='text/javascript'></script>
+<script src='https://code.highcharts.com/modules/exporting.js' type='text/javascript'></script>
+<style>
+
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 100%;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'pub.html' class = 'rChart highcharts'></div>    
+    <script type='text/javascript'>
+    (function($){
+        $(function () {
+            var chart = new Highcharts.Chart({
+ "dom": "pub.html",
+"width":            800,
+"height":            400,
+"credits": {
+ "enabled": "true",
+"href": "http://blog.bi-statistics.com",
+"text": "Bi-statistics.com" 
+},
+"exporting": {
+ "enabled": true 
+},
+"title": {
+ "text": "Type de publications " 
+},
+"yAxis": [
+ {
+ "title": {
+ "text": "Nombre Total",
+"labels": {
+ "enabled": "false",
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
+} 
+],
+"series": [
+ {
+ "data": [
+ [
+ "link",
+41 
+],
+[
+ "photo",
+315 
+],
+[
+ "status",
+15 
+],
+[
+ "video",
+107 
+] 
+],
+"name": "Beji Caid Essebsi",
+"type": "areaspline",
+"marker": {
+ "radius":              3 
+} 
+},
+{
+ "data": [
+ [
+ "link",
+50 
+],
+[
+ "photo",
+185 
+],
+[
+ "status",
+180 
+],
+[
+ "video",
+181 
+] 
+],
+"name": "Moncef Marzouki",
+"type": "areaspline",
+"marker": {
+ "radius":              3 
+} 
+} 
+],
+"xAxis": [
+ {
+ "categories": [ "link", "photo", "status", "video", "link", "photo", "status", "video" ],
+"labels": {
+ "enabled": "false",
+"align": "right",
+"style": {
+ "fontSize": "13px",
+"fontFamily": "Verdana, sans-serif" 
+} 
+} 
+} 
+],
+"subtitle": {
+ "text": null 
+},
+"chart": {
+ "zoomType": "xy",
+"renderTo": "pub.html" 
+},
+"tooltip": {
+ "shared": false,
+"formatter":  function() { return  this.y +' '+ this.x ; }  
+},
+"id": "pub.html" 
+});
+        });
+    })(jQuery);
+</script>
+    
+    <script></script>    
+  </body>
+</html>
 
 
 
