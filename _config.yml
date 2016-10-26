@@ -11,12 +11,12 @@ url: http://bi-statistics.com
 owner:
   name:           Saber Bouabid
   avatar:         avatar.jpg
-  bio:            "Statistician Engineer"
+  bio:            "Data Scientist"
   email:          saberbouabid@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        saberbouabid
   facebook:       
-  github:         
+  github:         saberbouabid
   stackexchange:  
   linkedin:       saberbouabid
   instagram:      saber_bouabid
