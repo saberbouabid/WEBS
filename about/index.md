@@ -9,7 +9,7 @@ comments: false
 ---
 
 # Un Data Lover
-> J'ai choisi ce metier de Statistcien / Data scientist, j'ai choisi d'être celui qui aide le décideur à prendre les désisions en se basant sur les chiffres et les données. 
+> J'ai choisi ce metier de Statistcien / Data scientist, j'ai choisi d'être celui qui aide le décideur à prendre les décisions en se basant sur les chiffres et les données. 
 
 # Mon Parcours Professionnel
 > Je suis  **data-scientist** , diplômé de l'école supérieure de la statistique et de l’analyse de l’information de Tunis [ESSAI](http://www.essai.rnu.tn).
